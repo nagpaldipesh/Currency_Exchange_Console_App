@@ -75,8 +75,8 @@ namespace MyLinkedList
         public void Push(string countryCode, double currencyExchangeValue)
         {
             // For Testing: if the exchange rates are the same then sort using the currency code.
-            if (countryCode.Equals("aud") || countryCode.Equals("aed") || countryCode.Equals("inr") || countryCode.Equals("mga") || countryCode.Equals("cop"))
-                currencyExchangeValue = 4542.3456;
+             // if (countryCode.Equals("aud") || countryCode.Equals("aed") || countryCode.Equals("inr") || countryCode.Equals("mga") || countryCode.Equals("cop"))
+             //   currencyExchangeValue = 4542.3456;
             /* allocate node */
             Node newNode = new Node(countryCode, currencyExchangeValue);
 
