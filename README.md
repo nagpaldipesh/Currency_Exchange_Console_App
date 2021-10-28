@@ -20,4 +20,6 @@
 **API Documentation:** https://github.com/fawazahmed0/currency-api#readme 
 **API Endpoint:** https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/aud.json
 
-
+ 
+**Sorted Output:**
+**Example 1:** https://github.com/nagpaldipesh/Currency_Exchange_Console_App/blob/main/Report_2021_10_28_21_42.csv
