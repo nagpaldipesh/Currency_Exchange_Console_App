@@ -21,4 +21,11 @@
 **API Endpoint:** https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/aud.json
 
  
-**Sorted Output:** https://github.com/nagpaldipesh/Currency_Exchange_Console_App/blob/main/Report_2021_10_28_21_42.csv
+**Sorted Output:** 
+**Example 1:** https://github.com/nagpaldipesh/Currency_Exchange_Console_App/blob/main/Report_2021_10_28_21_42.csv
+**Example 2:** https://github.com/nagpaldipesh/Currency_Exchange_Console_App/blob/main/Report_2021_10_28_21_56.csv
+
+**Screenshot:** 
+
+![image](https://user-images.githubusercontent.com/93336445/139296460-d09b4f85-233f-4bf4-b6c6-4fdf293e3b8a.png)
+
