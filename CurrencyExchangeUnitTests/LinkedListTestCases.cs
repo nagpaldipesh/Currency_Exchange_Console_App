@@ -13,8 +13,10 @@ namespace CurrencyExchangeUnitTests
             bool isCorrectDataPresent = false;
             try
             {
+                //Arrange
                 LinkedList linkedList = new LinkedList();
-
+                
+                //Act
                 linkedList.Push(countryCode: "inr", currencyExchangeValue: 70.23);
                 linkedList.Push(countryCode: "usd", currencyExchangeValue: 150.23);
 
@@ -29,8 +31,9 @@ namespace CurrencyExchangeUnitTests
             }
             catch (Exception)
             {
-
+                isCorrectDataPresent = false;
             }
+            //Assert
             Assert.False(isCorrectDataPresent, "Push Not Working");
         }
         //Push single Records into linked list and test
@@ -40,8 +43,10 @@ namespace CurrencyExchangeUnitTests
             bool isCorrectDataPresent = false;
             try
             {
+                //Arrange
                 LinkedList linkedList = new LinkedList();
 
+                //Act
                 linkedList.Push(countryCode: "inr", currencyExchangeValue: 70.23);
 
                 if (linkedList.Head != null)
@@ -53,8 +58,9 @@ namespace CurrencyExchangeUnitTests
             }
             catch (Exception)
             {
-
+                isCorrectDataPresent = false;
             }
+            //Assert
             Assert.False(isCorrectDataPresent, "Push Not Working");
         }
         // Testing Merge sort algorithm
@@ -64,7 +70,9 @@ namespace CurrencyExchangeUnitTests
             bool isDataSorted = true;
             try
             {
+                //Arrange
                 LinkedList linkedList = new LinkedList();
+                //Act
                 linkedList.Push(countryCode: "aed", currencyExchangeValue: 96.23);
                 linkedList.Push(countryCode: "inr", currencyExchangeValue: 75.34);
                 linkedList.Push(countryCode: "usd", currencyExchangeValue: 150.34);
@@ -91,8 +99,9 @@ namespace CurrencyExchangeUnitTests
             }
             catch (Exception)
             {
-
+                 isDataSorted = false;
             }
+            //Assert
             Assert.False(isDataSorted, "Merge Sort Not Working");
         }
         //Test merge sort algorithm when exchange value is same
@@ -102,7 +111,9 @@ namespace CurrencyExchangeUnitTests
             bool isDataSorted = true;
             try
             {
+                //Arrange
                 LinkedList linkedList = new LinkedList();
+                //Act
                 linkedList.Push(countryCode: "aed", currencyExchangeValue: 96.23);
                 linkedList.Push(countryCode: "inr", currencyExchangeValue: 75.34);
                 linkedList.Push(countryCode: "usd", currencyExchangeValue: 150.34);
@@ -142,8 +153,9 @@ namespace CurrencyExchangeUnitTests
             }
             catch (Exception)
             {
-
+                 isDataSorted = false;
             }
+            //Assert
             Assert.False(isDataSorted, "Merge Sort Not Working");
         }
     }
